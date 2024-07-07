@@ -1,50 +1,55 @@
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:source sans pro;
-  }
-  :root {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Root Variables */
+:root {
     --padding: 16px;
     --margin: 16px;
-  }
+}
 
-  body{
+/* Body Styles */
+body {
     background: url('images/headphones_hero_1.jpg') no-repeat center center/cover;
-  }
-  /* Hero Section Styles */
+}
 
-  .navbar {
+/* Navbar Styles */
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 200px;
+    padding: 0 200px;
     margin-top: 27px;
+}
 
-  }
-  
-  .navbar img {
+.navbar img {
     width: 161px;
     height: 32px;
-  }
-  
-  .nav-menu {
+}
+
+.nav-menu {
     list-style: none;
     display: flex;
     gap: var(--margin);
-  }
-  
-  .nav-menu a {
-    color: white;
+}
+
+.nav-menu a {
+    color: #fff;
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
-  }
-  
-  .nav-menu a:hover {
-    color: #FF6565;
-  }
-  .hamburger {
+}
+
+.nav-menu a:hover {
+    color: #ff6565;
+}
+
+/* Hamburger Menu Styles */
+.hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
@@ -58,49 +63,51 @@
     border-radius: 2px;
 }
 
-.hero-section {
+/* Hero Section Styles */
+.hero {
     text-align: center;
     padding: 50px 20px;
-    color: white;
+    color: #fff;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
-  
-  .hero-section h1 {
+}
+
+.hero h1 {
     font-size: 32px;
     margin-bottom: var(--margin);
-  }
-  
-  .hero-section .p1 {
+}
+
+.hero .intro {
     font-size: 16px;
     margin-bottom: var(--margin);
-  }
-  
-  .hero-section .button {
-    
+}
+
+.hero .cta {
     border: none;
     border-radius: 26px;
     width: 162px;
     height: 44px;
-    background-color: #FF6565;
+    background-color: #ff6565;
     font-size: 14px;
-    color: white;
+    color: #fff;
     font-weight: bold;
-    margin-top: 40px;  
+    margin-top: 40px;
     margin-bottom: 65px;
-  }
-  
-  .hero-section .button:hover {
-    opacity: 0.9
-  }
-  
-  .hero-section .p2 {
+}
+
+.hero .cta:hover {
+    opacity: 0.9;
+}
+
+.hero .details {
     font-size: 16px;
     line-height: 1.5;
-  }
-  .content{
+}
+
+/* Content Container */
+.main-content {
     max-width: 100%;
-  }
+}
