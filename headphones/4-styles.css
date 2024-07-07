@@ -19,7 +19,6 @@ footer div {
 .footer-section img {
     width: 161px;
     height: 32px;
-    /* Adjusted positioning properties */
     position: absolute;
     top: 20px;
     left: 20px;
@@ -29,16 +28,13 @@ footer div {
     display: flex;
     gap: 20px;
     align-items: center;
-    /* Adjusted positioning properties */
     position: absolute;
     top: 20px;
     right: 20px;
 }
-
-/* Adjusted styles for copyright notice */
 .copyright {
     color: white;
-    font-size: 12px; /* Added unit (px) to font-size */
+    font-size: 12px; 
     position: absolute;
     bottom: 20px;
     left: 50%;
