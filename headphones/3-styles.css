@@ -1,32 +1,35 @@
-body{
-    font-family: Source sans Pro;
-display: flex;
-justify-content: center;
-align-items: center;
-height: 100vh;
-margin: 0px;
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
 }
-.content-form{
+
+.content-form {
     background: #fff;
     padding: 60px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     width: 300px;
     margin-top: 56px;
-    justify-content: center;
-    align-items: center;  
 }
-h2{
-    font-family:Source sans Pro ;
+
+h2 {
+    font-family: 'Source Sans Pro', sans-serif; 
     margin-bottom: 15px;
     font-size: 24px;
-    color: #000000;
+    color: #000;
 }
-label{
+
+label {
     display: block;
     margin-bottom: 5px;
     color: #555;
 }
+
 .content-form input,
 .content-form textarea {
     width: 100%;
@@ -35,12 +38,14 @@ label{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 .content-form input:focus,
 .content-form textarea:focus {
     border-color: #bdc7d2;
     outline: none;
     box-shadow: 0 0 5px rgba(133, 143, 154, 0.5);
 }
+
 button {
     border-radius: 5px;
     width: 162px;
@@ -49,14 +54,16 @@ button {
     font-size: 14px;
     color: white;
     font-weight: bold;
-    margin-top: 2px;
     border: none;
-   
+    cursor: pointer; 
 }
-.content-form button:hover {
+
+button:hover {
     background-color: #313b46;
 }
-.contact-form{
+
+.contact-form {
+    display: flex;
+    justify-content: center;
     align-items: center;
-  justify-content: center;
 }
